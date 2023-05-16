@@ -500,3 +500,10 @@ cmp.setup {
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 require 'nvim-treesitter.install'.compilers = {'zig'}
+vim.opt.tabstop = 4
+vim.opt.relativenumber = true
+vim.opt.shell="cmd.exe"
+vim.opt.shellcmdflag="-c"
+
+-- local vimrc = vim.fn.stdpath("config") .. "/vimrc.vim"
+-- vim.cmd.source(vimrc)
